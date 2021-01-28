@@ -51,7 +51,7 @@ const dataMobileMenu: IMobileMenu = [
         children: [
             {
                 type: 'link',
-                title: 'Shop Grid',
+                title: 'Сетка магазина',
                 url: '/shop/category-grid-3-columns-sidebar',
                 children: [
                     { type: 'link', title: '3 Columns Sidebar', url: '/shop/category-grid-3-columns-sidebar' },
@@ -60,69 +60,69 @@ const dataMobileMenu: IMobileMenu = [
                 ]
             },
             { type: 'link', title: 'Список Магазинов', url: '/shop/category-list' },
-            { type: 'link', title: 'Shop Right Sidebar', url: '/shop/category-right-sidebar' },
+            { type: 'link', title: 'Магазин правой боковой панели', url: '/shop/category-right-sidebar' },
             {
                 type: 'link',
-                title: 'Product',
+                title: 'Товар',
                 url: '/shop/product-standard',
                 children: [
-                    { type: 'link', title: 'Product', url: '/shop/product-standard' },
-                    { type: 'link', title: 'Product Alt', url: '/shop/product-columnar' },
-                    { type: 'link', title: 'Product Sidebar', url: '/shop/product-sidebar' }
+                    { type: 'link', title: 'Товар', url: '/shop/product-standard' },
+                    { type: 'link', title: 'Товар Alt', url: '/shop/product-columnar' },
+                    { type: 'link', title: 'Товар Sidebar', url: '/shop/product-sidebar' }
                 ]
             },
-            { type: 'link', title: 'Cart', url: '/shop/cart' },
-            { type: 'link', title: 'Checkout', url: '/shop/checkout' },
-            { type: 'link', title: 'Order Success', url: '/shop/checkout/success' },
-            { type: 'link', title: 'Wishlist', url: '/shop/wishlist' },
-            { type: 'link', title: 'Compare', url: '/shop/compare' },
+            { type: 'link', title: '  Корзина', url: '/shop/cart' },
+            { type: 'link', title: 'Проверять, выписываться', url: '/shop/checkout' },
+            { type: 'link', title: 'Успешный заказ', url: '/shop/checkout/success' },
+            { type: 'link', title: 'Список желаний', url: '/shop/wishlist' },
+            { type: 'link', title: 'Сравнить', url: '/shop/compare' },
             // { type: 'link', title: 'Track Order', url: '/shop/track-order' }
         ]
     },
 
     {
         type: 'link',
-        title: 'Account',
+        title: 'Аккаунт',
         url: '/account',
         children: [
-            { type: 'link', title: 'Login', url: '/account/login' },
-            { type: 'link', title: 'Dashboard', url: '/account/dashboard' },
-            { type: 'link', title: 'Edit Profile', url: '/account/profile' },
-            { type: 'link', title: 'Order History', url: '/account/orders' },
-            { type: 'link', title: 'Order Details', url: '/account/orders/5' },
-            { type: 'link', title: 'Address Book', url: '/account/addresses' },
-            { type: 'link', title: 'Edit Address', url: '/account/addresses/5' },
-            { type: 'link', title: 'Change Password', url: '/account/password' }
+            { type: 'link', title: ' Авторизоваться', url: '/account/login' },
+            { type: 'link', title: 'Панель приборов', url: '/account/dashboard' },
+            { type: 'link', title: 'Редактировать профиль', url: '/account/profile' },
+            { type: 'link', title: 'История заказов', url: '/account/orders' },
+            { type: 'link', title: 'Информация для заказа', url: '/account/orders/5' },
+            { type: 'link', title: 'Адресная книга', url: '/account/addresses' },
+            { type: 'link', title: 'Изменить адрес', url: '/account/addresses/5' },
+            { type: 'link', title: 'Изменить пароль', url: '/account/password' }
         ]
     },
 
     {
         type: 'link',
-        title: 'Blog',
+        title: 'Блог',
         url: '/blog/category-classic',
         children: [
-            { type: 'link', title: 'Blog Classic', url: '/blog/category-classic' },
-            { type: 'link', title: 'Blog Grid', url: '/blog/category-grid' },
-            { type: 'link', title: 'Blog List', url: '/blog/category-list' },
-            { type: 'link', title: 'Blog Left Sidebar', url: '/blog/category-left-sidebar' },
-            { type: 'link', title: 'Post Page', url: '/blog/post-classic' },
-            { type: 'link', title: 'Post Without Sidebar', url: '/blog/post-full' }
+            { type: 'link', title: 'Блог Классический', url: '/blog/category-classic' },
+            { type: 'link', title: 'Блог Сетка', url: '/blog/category-grid' },
+            { type: 'link', title: 'Список блогов', url: '/blog/category-list' },
+            { type: 'link', title: 'Блог слева', url: '/blog/category-left-sidebar' },
+            { type: 'link', title: 'Страница сообщения', url: '/blog/post-classic' },
+            { type: 'link', title: 'Сообщение без боковой панели', url: '/blog/post-full' }
         ]
     },
 
     {
         type: 'link',
-        title: 'Pages',
+        title: 'Страницы',
         url: '/site/about-us',
         children: [
             { type: 'link', title: 'О нас', url: '/site/about-us' },
-            { type: 'link', title: 'Contact Us', url: '/site/contact-us' },
-            { type: 'link', title: 'Contact Us Alt', url: '/site/contact-us-alt' },
+            { type: 'link', title: 'Связаться с нами', url: '/site/contact-us' },
+            { type: 'link', title: 'Связаться с нами ALT', url: '/site/contact-us-alt' },
             { type: 'link', title: '404', url: '/site/not-found' },
-            { type: 'link', title: 'Terms And Conditions', url: '/site/terms' },
+            { type: 'link', title: 'Условия и положения', url: '/site/terms' },
             { type: 'link', title: 'FAQ', url: '/site/faq' },
-            { type: 'link', title: 'Components', url: '/site/components' },
-            { type: 'link', title: 'Typography', url: '/site/typography' }
+            { type: 'link', title: 'Составные части', url: '/site/components' },
+            { type: 'link', title: 'Типография', url: '/site/typography' }
         ]
     }
 ]

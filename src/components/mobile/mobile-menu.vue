@@ -9,7 +9,7 @@
         <div class="mobilemenu__body">
             <div class="mobilemenu__header">
                 <div class="mobilemenu__title">
-                    Menu
+                    Меню
                 </div>
                 <button type="button" class="mobilemenu__close" @click="$store.commit('mobileMenu/close')">
                     <Cross20Svg />
@@ -44,34 +44,34 @@ export default class MobileMenu extends Vue {
 
     links: IMobileMenu = [
         ...dataMobileMenu,
-        {
-            type: 'button',
-            title: 'Currency',
-            children: dataShopCurrencies.map((currency) => {
-                return {
-                    type: 'button',
-                    title: `${currency.symbol} ${currency.name}`,
-                    data: {
-                        type: 'currency',
-                        currency
-                    }
-                }
-            })
-        },
-        {
-            type: 'button',
-            title: 'Language',
-            children: dataLanguages.map((language) => {
-                return {
-                    type: 'button',
-                    title: language.name,
-                    data: {
-                        type: 'language',
-                        language
-                    }
-                }
-            })
-        }
+        // {
+        //     type: 'button',
+        //     title: 'Currency',
+        //     children: dataShopCurrencies.map((currency) => {
+        //         return {
+        //             type: 'button',
+        //             title: `${currency.symbol} ${currency.name}`,
+        //             data: {
+        //                 type: 'currency',
+        //                 currency
+        //             }
+        //         }
+        //     })
+        // },
+        // {
+        //     type: 'button',
+        //     title: 'Language',
+        //     children: dataLanguages.map((language) => {
+        //         return {
+        //             type: 'button',
+        //             title: language.name,
+        //             data: {
+        //                 type: 'language',
+        //                 language
+        //             }
+        //         }
+        //     })
+        // }
     ]
 
     @Watch('isOpen')
